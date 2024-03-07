@@ -1,0 +1,20 @@
+@import './normalize.css';
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #040046;
+  --primary-light: #6ee2f5;
+  --secondary: #7c76eb;
+  --secondary-light: #bebbf0;
+  --dark: #210636;
+}
