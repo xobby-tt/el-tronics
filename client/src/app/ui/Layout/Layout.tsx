@@ -1,10 +1,12 @@
+import { Container } from '@mui/material';
 import { PropsWithChildren } from 'react';
+import { Header } from '../../../widgets/header';
 
 export const Layout = ({ children }: PropsWithChildren) => {
   return (
     <>
-      <p>header</p>
-      {children}
+      <Header />
+      <Container>{children}</Container>
       <p>footer</p>
     </>
   );
