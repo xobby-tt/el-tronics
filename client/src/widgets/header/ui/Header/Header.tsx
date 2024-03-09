@@ -15,7 +15,7 @@ export const Header = () => {
         <Toolbar disableGutters>
           <img className={classes.logo} src="logo.png"></img>
 
-          <Box sx={{ flexGrow: 1, marginLeft: '20px' }}>
+          <Box sx={{ flexGrow: 1, marginLeft: '20px', display: 'flex' }}>
             {pages.map((page) => (
               <Button
                 key={page}

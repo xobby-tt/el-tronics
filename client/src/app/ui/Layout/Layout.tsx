@@ -1,13 +1,14 @@
-import { Container } from '@mui/material';
+import { Box, Container } from '@mui/material';
 import { PropsWithChildren } from 'react';
+import { Footer } from '../../../widgets/footer';
 import { Header } from '../../../widgets/header';
 
 export const Layout = ({ children }: PropsWithChildren) => {
   return (
-    <>
+    <Box display={'flex'} sx={{ flexDirection: 'column', minHeight: '100vh' }}>
       <Header />
-      <Container>{children}</Container>
-      <p>footer</p>
-    </>
+      <Container sx={{ flexGrow: 1 }}>{children}</Container>
+      <Footer />
+    </Box>
   );
 };
