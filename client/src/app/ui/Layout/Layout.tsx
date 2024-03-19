@@ -7,7 +7,9 @@ export const Layout = ({ children }: PropsWithChildren) => {
   return (
     <Box display={'flex'} sx={{ flexDirection: 'column', minHeight: '100vh' }}>
       <Header />
-      <Container sx={{ flexGrow: 1 }}>{children}</Container>
+      <Container sx={{ flexGrow: 1, marginTop: '40px', marginBottom: '40px' }}>
+        {children}
+      </Container>
       <Footer />
     </Box>
   );

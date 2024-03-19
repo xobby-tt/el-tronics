@@ -1,0 +1,1 @@
+export { CategoryIsland } from './CategoryIsland';

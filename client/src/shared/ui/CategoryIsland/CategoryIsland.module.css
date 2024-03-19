@@ -1,0 +1,28 @@
+.paper {
+  display: flex;
+  flex-shrink: 0;
+  position: absolute;
+}
+
+.paper.active {
+  width: 100%;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+
+.items:first-child {
+  border-radius: 20px 0 0 0;
+}
+
+.popup {
+  flex-grow: 1;
+  height: 100%;
+  padding: 20px;
+  border-radius: 0 20px 20px 0;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}

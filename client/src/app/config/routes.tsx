@@ -1,3 +1,4 @@
+import { HomePage } from '../../pages/home';
 import App from '../App';
 
 export const APP_ROUTES = [
@@ -7,7 +8,7 @@ export const APP_ROUTES = [
       {
         title: 'Main',
         path: '/',
-        element: <div>Main</div>,
+        element: <HomePage />,
       },
       {
         title: 'Device',

@@ -1,0 +1,6 @@
+.promoContainer {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  max-height: 350px;
+}
